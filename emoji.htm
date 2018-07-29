@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.2, maximum-scale=1.5, user-scalable=yes, width=device-width">
+  <meta name="mobile-web-app-capable" content="yes">
+<link rel="shortcut icon" type="image/png" href="emoji.png"/>
+<title>Memoji</title>
+<style>
+body {
+  background-image: url("Farm-Fresh-Strawberries.jpg"); /* https://bit.ly/2v9dcrO */
+  margin: 0px;
+}
+#container {
+  padding-top: 50px; 
+  padding-left: 10px; 
+  width: 416px; 
+  height: 416px;
+}
+#init      {
+  padding-top: 50px; 
+  padding-left: 175px;
+}
+div {
+  display: inline-block;
+  text-align: center;
+  height: 94px;
+  line-height: 94px;
+  padding: 5px;
+}
+span {
+  cursor: default;
+  background: white;
+  display: inline-block;
+  border: 2px solid brown;
+  border-radius: 16px;
+  vertical-align: middle;
+  font-size: 48px;
+  width: 70px;
+  height: 70px;
+  line-height: normal;
+  padding: 10px;
+}
+</style></head><body><div id="container"></div><br><div id="init"><span onclick="init()"><!--&#x2764;&#xfe0f;-->
+<script src="https://unpkg.com/jquery@2.2.4/dist/jquery.min.js"></script>
+<!--script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script-->
+<script>
+/**
+ * Array.prototype.shuffle.js
+ *
+ * @version 1.0
+ * @author think49
+ */
+Array.prototype.shuffle = function() {
+  var k, t, len;
+  len = this.length;
+  if (len < 2) {
+    return this;
+  }
+  while (len) {
+    k = Math.floor(Math.random() * len--);
+    t = this[k];
+    while (k < len) {
+      this[k] = this[++k];
+    }
+    this[k] = t;
+  }
+  return this;
+};
+
+var card1, 
+    card2,
+    animals, 
+    emoji = [].concat(
+      Array(36).fill().map((_, i) => String.fromCodePoint(0x1f330 + i)),  // plants & fruits
+      Array(44).fill().map((_, i) => String.fromCodePoint(0x1f400 + i)),  // animals
+      Array(16).fill().map((_, i) => String.fromCodePoint(0x1f42d + i))   // animals faces
+   // Array(28).fill().map((_, i) => String.fromCodePoint(0x1f950 + i)),  // supp food
+   // Array(24).fill().map((_, i) => String.fromCodePoint(0x1f980 + i))   // supp animals
+    );                                                 // 0x1f9.. emoji's not on Android
+
+    $("#init span").html(String.fromCodePoint(0x267b,0xfe0f)); 
+    // need unicode variation selector to get green recycle!
+    // https://stackoverflow.com/questions/4974668/what-is-the-unicode-variation-selector
+
+function init() {
+  card1 = card2 = null;
+  $('#container').html('');
+
+  animals = emoji.shuffle().slice(0,8);
+  animals = animals.concat(animals).shuffle();
+  animals.forEach(function(_, i) { 
+    $(`<div><span id="${i}">&nbsp;</div>`).appendTo($('#container'));
+  });
+  console.log(emoji.join(","));
+
+  $('span').click(function(e){
+    if(e.target.innerText.charCodeAt(0) !== 160 ||  // not an empty cell
+      card2 !== null)                               // setTimeout not finished yet!
+        return false;
+
+    var id = e.target.id;
+    $( this ).html( animals[id] );
+    if(card1 === null){
+      card1 = id;
+    } else if( animals[card1] === animals[id] ) {
+      card1 = null;
+    } else {
+      card2 = id;
+      setTimeout(function(){
+        $('span#' + card1).html('&nbsp;'); card1 = null;
+        $('span#' + card2).html('&nbsp;'); card2 = null;
+      }, 1000);
+    }
+    return false;
+  });
+}
+
+$(document).ready(function() { 
+  init();
+});
+</script></body></html>
