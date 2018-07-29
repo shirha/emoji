@@ -1,13 +1,14 @@
 ﻿<!DOCTYPE html>
 <html><head>
   <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1.2, maximum-scale=1.5, user-scalable=yes, width=device-width">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
   <meta name="mobile-web-app-capable" content="yes">
-<link rel="shortcut icon" type="image/png" href="emoji.png"/>
+<link rel="shortcut icon" type="image/png" href="favicon.png"/>
 <title>Memoji</title>
 <style>
 body {
-  background-image: url("https://cache.desktopnexus.com/wallpapers/2117/2117183-1920x1080-Farm-Fresh-Strawberries.jpg?st=5UnbXTG1Oqt5kwfBGS5a6w&e=1532829352"); /* https://bit.ly/2v9dcrO */
+background-image: url("https://cache.desktopnexus.com/wallpapers/2117/2117183-1920x1080-Farm-Fresh-Strawberries.jpg?st=5UnbXTG1Oqt5kwfBGS5a6w&e=1532829352");
+  background-color: wheat;
   margin: 0px;
 }
 #container {
@@ -40,7 +41,8 @@ span {
   line-height: normal;
   padding: 10px;
 }
-</style></head><body><div id="container"></div><br><div id="init"><span onclick="init()"><!--&#x2764;&#xfe0f;-->
+/* https://stackoverflow.com/questions/4974668/what-is-the-unicode-variation-selector */
+</style></head><body><div id="container"></div><br><div id="init"><span onclick="init()">&#x267b;&#xfe0f;
 <script src="https://unpkg.com/jquery@2.2.4/dist/jquery.min.js"></script>
 <!--script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script-->
 <script>
@@ -77,10 +79,6 @@ var card1,
    // Array(28).fill().map((_, i) => String.fromCodePoint(0x1f950 + i)),  // supp food
    // Array(24).fill().map((_, i) => String.fromCodePoint(0x1f980 + i))   // supp animals
     );                                                 // 0x1f9.. emoji's not on Android
-
-    $("#init span").html(String.fromCodePoint(0x267b,0xfe0f)); 
-    // need unicode variation selector to get green recycle!
-    // https://stackoverflow.com/questions/4974668/what-is-the-unicode-variation-selector
 
 function init() {
   card1 = card2 = null;
