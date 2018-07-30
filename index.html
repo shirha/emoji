@@ -9,40 +9,29 @@
 body {
 background-image: url("https://cache.desktopnexus.com/wallpapers/2117/2117183-1920x1080-Farm-Fresh-Strawberries.jpg?st=5UnbXTG1Oqt5kwfBGS5a6w&e=1532829352");
   background-color: wheat;
-  margin: 0px;
+  margin: 10px;
 }
-#container {
-  padding-top: 50px; 
-  padding-left: 10px; 
-  width: 416px; 
-  height: 416px;
+.flex {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
-#init      {
-  padding-top: 50px; 
-  padding-left: 175px;
+.flex > div {
+    cursor: default;
+    border-radius: 25%;
+    display: flex; 
+    background: white;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 5px solid tan;
 }
-div {
-  display: inline-block;
-  text-align: center;
-  height: 94px;
-  line-height: 94px;
-  padding: 5px;
+.flex > div:after {
+    content: ' ';
+    padding-top: 100%;
+    display: table; 
 }
-span {
-  cursor: default;
-  background: white;
-  display: inline-block;
-  border: 2px solid brown;
-  border-radius: 16px;
-  vertical-align: middle;
-  font-size: 48px;
-  width: 70px;
-  height: 70px;
-  line-height: normal;
-  padding: 10px;
-}
-/* https://stackoverflow.com/questions/4974668/what-is-the-unicode-variation-selector */
-</style></head><body><div id="container"></div><br><div id="init"><span onclick="init()">&#x267b;&#xfe0f;
+</style></head><body><div class="flex"></div><div class="flex"></div><p>&nbsp;
 <script src="https://unpkg.com/jquery@2.2.4/dist/jquery.min.js"></script>
 <!--script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script-->
 <script>
@@ -53,17 +42,12 @@ span {
  * @author think49
  */
 Array.prototype.shuffle = function() {
-  var k, t, len;
-  len = this.length;
-  if (len < 2) {
-    return this;
-  }
+  var k, t, len = this.length;
+  if (len < 2) return this;
   while (len) {
     k = Math.floor(Math.random() * len--);
     t = this[k];
-    while (k < len) {
-      this[k] = this[++k];
-    }
+    while (k < len) this[k] = this[++k];
     this[k] = t;
   }
   return this;
@@ -82,16 +66,25 @@ var card1,
 
 function init() {
   card1 = card2 = null;
-  $('#container').html('');
+  $('.flex').html('');
 
   animals = emoji.shuffle().slice(0,8);
   animals = animals.concat(animals).shuffle();
   animals.forEach(function(_, i) { 
-    $(`<div><span id="${i}">&nbsp;</div>`).appendTo($('#container'));
+    $('.flex').first().append( $(`<div id="${i}">&nbsp;</div>`));
   });
+  $('.flex').last().append( $(`<div>&#x267b;&#xfe0f;</div>`)); // green recycle
+  // https://stackoverflow.com/questions/4974668/what-is-the-unicode-variation-selector
   console.log(emoji.join(","));
+  onChange();
 
-  $('span').click(function(e){
+  $('.flex > div').click(function(e){
+    if(e.target.innerText.charCodeAt(0) === 0x267b) {
+      init(); // not recursive; on init, it just adds listeners
+      console.log('last');
+      return false;
+    }
+
     if(e.target.innerText.charCodeAt(0) !== 160 ||  // not an empty cell
       card2 !== null)                               // setTimeout not finished yet!
         return false;
@@ -105,15 +98,27 @@ function init() {
     } else {
       card2 = id;
       setTimeout(function(){
-        $('span#' + card1).html('&nbsp;'); card1 = null;
-        $('span#' + card2).html('&nbsp;'); card2 = null;
+        $('#' + card1).html('&nbsp;'); card1 = null;
+        $('#' + card2).html('&nbsp;'); card2 = null;
       }, 1000);
     }
     return false;
   });
 }
 
-$(document).ready(function() { 
+function onChange(){
+  var h = $(window).height(), w = $(window).width(), m, c;
+  m = h > w ? w - 20 : (h - 20) * 4 / 6;
+  c = m / 4 - 20;
+  $('body').css('font-size', c/2);
+  $('.flex').first().css({ 'width': m, 'height': m});
+  $('.flex').last().css({ 'width': m/4, 'height': m/4, 'top': m/5, 'left': m*3/8});
+  $('.flex > div').css({ 'width': c });
+}
+
+$(document).ready(function(){
+  $(window).resize(onChange);
   init();
 });
+
 </script></body></html>
