@@ -7,7 +7,7 @@
 <title>Memoji</title>
 <style>
 body {
-background-image: url("https://cache.desktopnexus.com/wallpapers/2117/2117183-1920x1080-Farm-Fresh-Strawberries.jpg?st=5UnbXTG1Oqt5kwfBGS5a6w&e=1532829352");
+  background-image: url("https://cache.desktopnexus.com/wallpapers/2117/2117183-1920x1080-Farm-Fresh-Strawberries.jpg");
   background-color: wheat;
   margin: 10px;
 }
@@ -53,10 +53,7 @@ Array.prototype.shuffle = function() {
   return this;
 };
 
-var card1, 
-    card2,
-    animals, 
-    emoji = [].concat(
+var card1, card2, animals, emoji = [].concat(
       Array(36).fill().map((_, i) => String.fromCodePoint(0x1f330 + i)),  // plants & fruits
       Array(44).fill().map((_, i) => String.fromCodePoint(0x1f400 + i)),  // animals
       Array(16).fill().map((_, i) => String.fromCodePoint(0x1f42d + i))   // animals faces
@@ -79,6 +76,7 @@ function init() {
   onChange();
 
   $('.flex > div').click(function(e){
+
     if(e.target.innerText.charCodeAt(0) === 0x267b) {
       init(); // not recursive; on init, it just adds listeners
       console.log('last');
