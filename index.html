@@ -10,6 +10,7 @@ body {
   background-image: url("https://cache.desktopnexus.com/wallpapers/2117/2117183-1920x1080-Farm-Fresh-Strawberries.jpg");
   background-color: wheat;
   margin: 10px;
+  overflow:hidden;
 }
 .flex {
     position: relative;
@@ -31,7 +32,7 @@ body {
     padding-top: 100%;
     display: table; 
 }
-</style></head><body><div class="flex"></div><div class="flex"></div><p>
+</style></head><body><div class="flex"></div><div class="flex"></div><p>&nbsp;
 <script src="https://unpkg.com/jquery@2.2.4/dist/jquery.min.js"></script>
 <!--script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script-->
 <script>
@@ -78,8 +79,7 @@ function init() {
   $('.flex > div').click(function(e){
 
     if(e.target.innerText.charCodeAt(0) === 0x267b) {
-      init(); // not recursive; on init, it just adds listeners
-      console.log('last');
+      init();
       return false;
     }
 
@@ -117,7 +117,6 @@ function onChange(){
 $(document).ready(function(){
   $(window).resize(onChange);
   init();
-  !!("ontouchstart" in window) && $('p').html('&nbsp;');
 });
 
 </script></body></html>
