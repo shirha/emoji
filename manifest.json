@@ -1,4 +1,5 @@
 {
+  "manifest_version": 2,
   "short_name": "Emoji",
   "icons": [
     {
@@ -12,6 +13,7 @@
       "sizes": "512x512"
     }
   ],
+  "id": "/emoji",
   "start_url": "/emoji",
   "background_color": "#D2B48C",
   "display": "standalone",
