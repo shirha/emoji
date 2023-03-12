@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/emoji/index.html",
+  "start_url": "/emoji/?app=emoji",
   "background_color": "#D2B48C",
   "display": "standalone",
   "scope": "/",
