@@ -96,7 +96,6 @@ function init() {
       return false;
     }
 
-    // === NEW: Cancel any active timeout and force-hide previous pair ===
     if (timeoutID !== null) {
       clearTimeout(timeoutID);
       timeoutID = null;
@@ -106,14 +105,12 @@ function init() {
         $('#' + card1).html('&nbsp;');
         $('#' + card2).html('&nbsp;');
 
-        // Still count error if it wasn't their first guess (optional)
         if (guess[card1] !== 1 || guess[card2] !== 1) {
           errors++;
         }
       }
       card1 = card2 = null;
     }
-    // ================================================================
 
     let id = e.target.id;
     guess[id]++;
@@ -166,6 +163,7 @@ function onChange() {
   $('.flex').last().css({'width': m/4, 'height': m/4, 'top': Math.min(c,h-m-c-40), 'left': m*3/8});
   $('.flex > div').css({'width': c});                       //          ipad mini
   // $('#dbg').append(`${h},${w},${m},${c},7<br>`);
+  console.log(`h= ${h}, w ${w}$, m= {m}, c= ${c}`);
 }
 
 $(document).ready(function() {
