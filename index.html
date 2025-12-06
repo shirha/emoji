@@ -56,7 +56,7 @@ Array.prototype.shuffle = function() {
   return this;
 };
 
-let card1, card2, guess, errors, animals, emoji = [].concat(
+let card1, card2, guess, errors, animals, timeoutID = null, emoji = [].concat(
   Array(36).fill().map((_, i) => String.fromCodePoint(0x1f330 + i)),  // plants & fruits
   Array(44).fill().map((_, i) => String.fromCodePoint(0x1f400 + i)),  // animals
   Array(16).fill().map((_, i) => String.fromCodePoint(0x1f42d + i))   // animals faces
@@ -83,43 +83,68 @@ function init() {
       return false;
     }
 
-    if(e.target.innerHTML !== '&nbsp;' ||  // not an empty cell
-      card2 !== null)                      // setTimeout not finished yet!
-        return false;
+    // Prevent clicking on already revealed cards
+    if (e.target.innerHTML !== '&nbsp;') {
+      return false;
+    }
+
+    // === NEW: Cancel any active timeout and force-hide previous pair ===
+    if (timeoutID !== null) {
+      clearTimeout(timeoutID);
+      timeoutID = null;
+
+      if (card1 !== null && card2 !== null) {
+        // Force hide the mismatched pair immediately
+        $('#' + card1).html('&nbsp;');
+        $('#' + card2).html('&nbsp;');
+
+        // Still count error if it wasn't their first guess (optional)
+        if (guess[card1] !== 1 || guess[card2] !== 1) {
+          errors++;
+        }
+      }
+      card1 = card2 = null;
+    }
+    // ================================================================
 
     let id = e.target.id;
     guess[id]++;
-    $( this ).html( animals[id] );
+    $(this).html(animals[id]);
 
-    if(card1 === null) {
+    if (card1 === null) {
       card1 = id;
-  
-    } else if( animals[card1] === animals[id] ) {
+
+    } else if (animals[card1] === animals[id]) {
+      // Match!
       card1 = null;
 
-      let i = 0; 
-      $('.flex:first > div').each((_,e) => {
-        if(e.innerHTML === '&nbsp;') i++;
+      let remaining = 0;
+      $('.flex:first > div').each((_, e) => {
+        if (e.innerHTML === '&nbsp;') remaining++;
       });
-  
-      if(!i) {
-        $('.flex:last > div').html(errors ? `<b><font color="deeppink">${errors}` : '💖');
-        setTimeout(function() {
-          $('.flex:last > div').html(`<div>♻️</div>`);
+
+      if (!remaining) {
+        $('.flex:last > div').html(errors ? `<b><font color="deeppink">${errors}</font></b>` : '💖');
+        setTimeout(() => {
+          $('.flex:last > div').html('♻️');
         }, errors ? 1000 : 9000);
       }
-  
+
     } else {
+      // Mismatch — show for 1 second (or until player clicks again)
       card2 = id;
-      setTimeout(function() {
-        if(guess[card1] !== 1 || guess[card2] !== 1) {
+
+      timeoutID = setTimeout(function() {
+        if (guess[card1] !== 1 || guess[card2] !== 1) {
           errors++;
-          console.log(animals[card1],guess[card1],animals[card2],guess[card2]);
         }
-        $('#' + card1).html('&nbsp;'); card1 = null;
-        $('#' + card2).html('&nbsp;'); card2 = null;
+        $('#' + card1).html('&nbsp;');
+        $('#' + card2).html('&nbsp;');
+        card1 = card2 = null;
+        timeoutID = null;
       }, 1000);
     }
+
     return false;
   });
 }
