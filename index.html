@@ -44,7 +44,7 @@ body {
  * @version 1.0
  * @author think49
  */
-Array.prototype.shuffle = function() {
+Array.prototype.shuffle2 = function() {
   let k, t, len = this.length;
   if(len < 2) return this;
   while(len) {
@@ -54,6 +54,24 @@ Array.prototype.shuffle = function() {
     this[k] = t;
   }
   return this;
+};
+
+Array.prototype.shuffle = function() {
+  let currentIndex = this.length;
+  let randomIndex;
+
+  // While there remain elements to shuffle.
+  while (currentIndex !== 0) {
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [this[currentIndex], this[randomIndex]] = [
+      this[randomIndex], this[currentIndex]
+    ];
+  }
+  return this; // Return the shuffled array (modified in place)
 };
 
 let card1, card2, guess, errors, animals, timeoutID = null, emoji = [].concat(
@@ -66,7 +84,8 @@ function init() {
   card1 = card2 = null, errors = 0, guess = new Array(16).fill(0);
   $('.flex').html('');
 
-  animals = emoji.shuffle().slice(0,8);
+  emoji = emoji.shuffle();
+  animals = emoji.slice(0,8);
   animals = animals.concat(animals).shuffle();
   animals.forEach(function(_, i) { 
     $('.flex').first().append($(`<div id="${i}">&nbsp;</div>`));
