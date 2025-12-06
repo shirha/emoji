@@ -74,6 +74,25 @@ Array.prototype.shuffle = function() {
   return this; // Return the shuffled array (modified in place)
 };
 
+function hasAdjacentEqualElements(arr) {
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i] === arr[i + 1]) {
+      console.log('adjacentIndex=',i)
+      return true; // Found adjacent equal elements
+    }
+  }
+  return false; // No adjacent equal elements found
+}
+
+// Example usage:
+const array1 = [1, 2, 2, 3, 4];
+console.log(hasAdjacentEqualElements(array1)); // Output: true
+
+const array2 = [1, 2, 3, 4, 5];
+console.log(hasAdjacentEqualElements(array2)); // Output: false
+
+const array3 = ["a", "b", "b", "c"];
+console.log(hasAdjacentEqualElements(array3)); // Output: true
 let card1, card2, guess, errors, animals, timeoutID = null, emoji = [].concat(
   Array(36).fill().map((_, i) => String.fromCodePoint(0x1f330 + i)),  // plants & fruits
   Array(44).fill().map((_, i) => String.fromCodePoint(0x1f400 + i)),  // animals
@@ -85,8 +104,11 @@ function init() {
   $('.flex').html('');
 
   emoji = emoji.shuffle();
-  animals = emoji.slice(0,8);
-  animals = animals.concat(animals).shuffle();
+  animals = emoji.slice(0,8).concat(emoji.slice(0,8));
+  do {
+    animals = animals.shuffle();
+  } while (hasAdjacentEqualElements(animals));
+  
   animals.forEach(function(_, i) { 
     $('.flex').first().append($(`<div id="${i}">&nbsp;</div>`));
   });
