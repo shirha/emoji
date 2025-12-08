@@ -221,7 +221,7 @@ const getRandomColor = () => "#" + Math.floor(Math.random() * 16777215).toString
 function createHeart(x, y) {
     let color = getRandomColor(); 
     for (let i = 0; i < numberOfHearts; i++) {
-        if(i == numberOfHearts / 2) color = getRandomColor(); 
+        if (i == numberOfHearts / 2) color = getRandomColor(); 
         const heart = document.createElement("div");
         heart.classList.add("heart-firework");
         heart.textContent = "♥";
@@ -236,7 +236,7 @@ function createHeart(x, y) {
 
         // Calculate a random direction and distance
         const angle = Math.random() * Math.PI * 2;
-        const distance = Math.random() * 200 + 400;
+        const distance = Math.random() * 400 + 200;
         const dx = Math.cos(angle) * distance;
         const dy = Math.sin(angle) * distance;
 
@@ -258,7 +258,4 @@ function triggerRandomFirework() {
     const y = Math.random() * (window.innerHeight - 2*c);
     createHeart(x, y); // Pass the color
 }
-
-// loopInterval = setInterval(triggerRandomFirework, 500);
-// clearInterval(loopInterval);
 </script></body></html>
