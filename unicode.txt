@@ -1,0 +1,1022 @@
+🌀1F300 Cyclone
+🌁1F301 Foggy
+🌂1F302 Closed Umbrella
+🌃1F303 Night with Stars
+🌄1F304 Sunrise Over Mountains
+🌅1F305 Sunrise
+🌆1F306 Cityscape at Dusk
+🌇1F307 Sunset Over Buildings
+🌈1F308 Rainbow
+🌉1F309 Bridge at Night
+🌊1F30A Water Wave
+🌋1F30B Volcano
+🌌1F30C Milky Way
+🌍1F30D Earth Globe Europe-Africa
+🌎1F30E Earth Globe Americas
+🌏1F30F Earth Globe Asia-Australia
+🌐1F310 Globe with Meridians
+🌑1F311 New Moon Symbol
+🌒1F312 Waxing Crescent Moon Symbol
+🌓1F313 First Quarter Moon Symbol
+🌔1F314 Waxing Gibbous Moon Symbol
+🌕1F315 Full Moon Symbol
+🌖1F316 Waning Gibbous Moon Symbol
+🌗1F317 Last Quarter Moon Symbol
+🌘1F318 Waning Crescent Moon Symbol
+🌙1F319 Crescent Moon
+🌚1F31A New Moon with Face
+🌛1F31B First Quarter Moon with Face
+🌜1F31C Last Quarter Moon with Face
+🌝1F31D Full Moon with Face
+🌞1F31E Sun with Face
+🌟1F31F Glowing Star
+🌠1F320 Shooting Star
+🌡1F321 Thermometer
+🌢1F322 Black Droplet
+🌣1F323 White Sun
+🌤1F324 White Sun with Small Cloud
+🌥1F325 White Sun Behind Cloud
+🌦1F326 White Sun Behind Cloud with Rain
+🌧1F327 Cloud with Rain
+🌨1F328 Cloud with Snow
+🌩1F329 Cloud with Lightning
+🌪1F32A Cloud with Tornado
+🌫1F32B Fog
+🌬1F32C Wind Blowing Face
+🌭1F32D Hot Dog
+🌮1F32E Taco
+🌯1F32F Burrito
+🌰1F330 Chestnut
+🌱1F331 Seedling
+🌲1F332 Evergreen Tree
+🌳1F333 Deciduous Tree
+🌴1F334 Palm Tree
+🌵1F335 Cactus
+🌶1F336 Hot Pepper
+🌷1F337 Tulip
+🌸1F338 Cherry Blossom
+🌹1F339 Rose
+🌺1F33A Hibiscus
+🌻1F33B Sunflower
+🌼1F33C Blossom
+🌽1F33D Ear of Maize
+🌾1F33E Ear of Rice
+🌿1F33F Herb
+🍀1F340 Four Leaf Clover
+🍁1F341 Maple Leaf
+🍂1F342 Fallen Leaf
+🍃1F343 Leaf Fluttering In Wind
+🍄1F344 Mushroom
+🍅1F345 Tomato
+🍆1F346 Aubergine
+🍇1F347 Grapes
+🍈1F348 Melon
+🍉1F349 Watermelon
+🍊1F34A Tangerine
+🍋1F34B Lemon
+🍌1F34C Banana
+🍍1F34D Pineapple
+🍎1F34E Red Apple
+🍏1F34F Green Apple
+🍐1F350 Pear
+🍑1F351 Peach
+🍒1F352 Cherries
+🍓1F353 Strawberry
+🍔1F354 Hamburger
+🍕1F355 Slice of Pizza
+🍖1F356 Meat On Bone
+🍗1F357 Poultry Leg
+🍘1F358 Rice Cracker
+🍙1F359 Rice Ball
+🍚1F35A Cooked Rice
+🍛1F35B Curry and Rice
+🍜1F35C Steaming Bowl
+🍝1F35D Spaghetti
+🍞1F35E Bread
+🍟1F35F French Fries
+🍠1F360 Roasted Sweet Potato
+🍡1F361 Dango
+🍢1F362 Oden
+🍣1F363 Sushi
+🍤1F364 Fried Shrimp
+🍥1F365 Fish Cake with Swirl Design
+🍦1F366 Soft Ice Cream
+🍧1F367 Shaved Ice
+🍨1F368 Ice Cream
+🍩1F369 Doughnut
+🍪1F36A Cookie
+🍫1F36B Chocolate Bar
+🍬1F36C Candy
+🍭1F36D Lollipop
+🍮1F36E Custard
+🍯1F36F Honey Pot
+🍰1F370 Shortcake
+🍱1F371 Bento Box
+🍲1F372 Pot of Food
+🍳1F373 Cooking
+🍴1F374 Fork and Knife
+🍵1F375 Teacup Without Handle
+🍶1F376 Sake Bottle and Cup
+🍷1F377 Wine Glass
+🍸1F378 Cocktail Glass
+🍹1F379 Tropical Drink
+🍺1F37A Beer Mug
+🍻1F37B Clinking Beer Mugs
+🍼1F37C Baby Bottle
+🍽1F37D Fork and Knife with Plate
+🍾1F37E Bottle with Popping Cork
+🍿1F37F Popcorn
+🎀1F380 Ribbon
+🎁1F381 Wrapped Present
+🎂1F382 Birthday Cake
+🎃1F383 Jack-O-Lantern
+🎄1F384 Christmas Tree
+🎅1F385 Father Christmas
+🎆1F386 Fireworks
+🎇1F387 Firework Sparkler
+🎈1F388 Balloon
+🎉1F389 Party Popper
+🎊1F38A Confetti Ball
+🎋1F38B Tanabata Tree
+🎌1F38C Crossed Flags
+🎍1F38D Pine Decoration
+🎎1F38E Japanese Dolls
+🎏1F38F Carp Streamer
+🎐1F390 Wind Chime
+🎑1F391 Moon Viewing Ceremony
+🎒1F392 School Satchel
+🎓1F393 Graduation Cap
+🎔1F394 Heart with Tip On the Left
+🎕1F395 Bouquet of Flowers
+🎖1F396 Military Medal
+🎗1F397 Reminder Ribbon
+🎘1F398 Musical Keyboard with Jacks
+🎙1F399 Studio Microphone
+🎚1F39A Level Slider
+🎛1F39B Control Knobs
+🎜1F39C Beamed Ascending Musical Notes
+🎝1F39D Beamed Descending Musical Notes
+🎞1F39E Film Frames
+🎟1F39F Admission Tickets
+🎠1F3A0 Carousel Horse
+🎡1F3A1 Ferris Wheel
+🎢1F3A2 Roller Coaster
+🎣1F3A3 Fishing Pole and Fish
+🎤1F3A4 Microphone
+🎥1F3A5 Movie Camera
+🎦1F3A6 Cinema
+🎧1F3A7 Headphone
+🎨1F3A8 Artist Palette
+🎩1F3A9 Top Hat
+🎪1F3AA Circus Tent
+🎫1F3AB Ticket
+🎬1F3AC Clapper Board
+🎭1F3AD Performing Arts
+🎮1F3AE Video Game
+🎯1F3AF Direct Hit
+🎰1F3B0 Slot Machine
+🎱1F3B1 Billiards
+🎲1F3B2 Game Die
+🎳1F3B3 Bowling
+🎴1F3B4 Flower Playing Cards
+🎵1F3B5 Musical Note
+🎶1F3B6 Multiple Musical Notes
+🎷1F3B7 Saxophone
+🎸1F3B8 Guitar
+🎹1F3B9 Musical Keyboard
+🎺1F3BA Trumpet
+🎻1F3BB Violin
+🎼1F3BC Musical Score
+🎽1F3BD Running Shirt with Sash
+🎾1F3BE Tennis Racquet and Ball
+🎿1F3BF Ski and Ski Boot
+🏀1F3C0 Basketball and Hoop
+🏁1F3C1 Chequered Flag
+🏂1F3C2 Snowboarder
+🏃1F3C3 Runner
+🏄1F3C4 Surfer
+🏅1F3C5 Sports Medal
+🏆1F3C6 Trophy
+🏇1F3C7 Horse Racing
+🏈1F3C8 American Football
+🏉1F3C9 Rugby Football
+🏊1F3CA Swimmer
+🏋1F3CB Weight Lifter
+🏌1F3CC Golfer
+🏍1F3CD Racing Motorcycle
+🏎1F3CE Racing Car
+🏏1F3CF Cricket Bat and Ball
+🏐1F3D0 Volleyball
+🏑1F3D1 Field Hockey Stick and Ball
+🏒1F3D2 Ice Hockey Stick and Puck
+🏓1F3D3 Table Tennis Paddle and Ball
+🏔1F3D4 Snow Capped Mountain
+🏕1F3D5 Camping
+🏖1F3D6 Beach with Umbrella
+🏗1F3D7 Building Construction
+🏘1F3D8 House Buildings
+🏙1F3D9 Cityscape
+🏚1F3DA Derelict House Building
+🏛1F3DB Classical Building
+🏜1F3DC Desert
+🏝1F3DD Desert Island
+🏞1F3DE National Park
+🏟1F3DF Stadium
+🏠1F3E0 House Building
+🏡1F3E1 House with Garden
+🏢1F3E2 Office Building
+🏣1F3E3 Japanese Post Office
+🏤1F3E4 European Post Office
+🏥1F3E5 Hospital
+🏦1F3E6 Bank
+🏧1F3E7 Automated Teller Machine
+🏨1F3E8 Hotel
+🏩1F3E9 Love Hotel
+🏪1F3EA Convenience Store
+🏫1F3EB School
+🏬1F3EC Department Store
+🏭1F3ED Factory
+🏮1F3EE Izakaya Lantern
+🏯1F3EF Japanese Castle
+🏰1F3F0 European Castle
+🏱1F3F1 White Pennant
+🏲1F3F2 Black Pennant
+🏳1F3F3 Waving White Flag
+🏴1F3F4 Waving Black Flag
+🏵1F3F5 Rosette
+🏶1F3F6 Black Rosette
+🏷1F3F7 Label
+🏸1F3F8 Badminton Racquet and Shuttlecock
+🏹1F3F9 Bow and Arrow
+🏺1F3FA Amphora
+🏻1F3FB Emoji Modifier Fitzpatrick Type-1-2
+🏼1F3FC Emoji Modifier Fitzpatrick Type-3
+🏽1F3FD Emoji Modifier Fitzpatrick Type-4
+🏾1F3FE Emoji Modifier Fitzpatrick Type-5
+🏿1F3FF Emoji Modifier Fitzpatrick Type-6
+🐀1F400 Rat
+🐁1F401 Mouse
+🐂1F402 Ox
+🐃1F403 Water Buffalo
+🐄1F404 Cow
+🐅1F405 Tiger
+🐆1F406 Leopard
+🐇1F407 Rabbit
+🐈1F408 Cat
+🐉1F409 Dragon
+🐊1F40A Crocodile
+🐋1F40B Whale
+🐌1F40C Snail
+🐍1F40D Snake
+🐎1F40E Horse
+🐏1F40F Ram
+🐐1F410 Goat
+🐑1F411 Sheep
+🐒1F412 Monkey
+🐓1F413 Rooster
+🐔1F414 Chicken
+🐕1F415 Dog
+🐖1F416 Pig
+🐗1F417 Boar
+🐘1F418 Elephant
+🐙1F419 Octopus
+🐚1F41A Spiral Shell
+🐛1F41B Bug
+🐜1F41C Ant
+🐝1F41D Honeybee
+🐞1F41E Lady Beetle
+🐟1F41F Fish
+🐠1F420 Tropical Fish
+🐡1F421 Blowfish
+🐢1F422 Turtle
+🐣1F423 Hatching Chick
+🐤1F424 Baby Chick
+🐥1F425 Front-Facing Baby Chick
+🐦1F426 Bird
+🐧1F427 Penguin
+🐨1F428 Koala
+🐩1F429 Poodle
+🐪1F42A Dromedary Camel
+🐫1F42B Bactrian Camel
+🐬1F42C Dolphin
+🐭1F42D Mouse Face
+🐮1F42E Cow Face
+🐯1F42F Tiger Face
+🐰1F430 Rabbit Face
+🐱1F431 Cat Face
+🐲1F432 Dragon Face
+🐳1F433 Spouting Whale
+🐴1F434 Horse Face
+🐵1F435 Monkey Face
+🐶1F436 Dog Face
+🐷1F437 Pig Face
+🐸1F438 Frog Face
+🐹1F439 Hamster Face
+🐺1F43A Wolf Face
+🐻1F43B Bear Face
+🐼1F43C Panda Face
+🐽1F43D Pig Nose
+🐾1F43E Paw Prints
+🐿1F43F Chipmunk
+👀1F440 Eyes
+👁1F441 Eye
+👂1F442 Ear
+👃1F443 Nose
+👄1F444 Mouth
+👅1F445 Tongue
+👆1F446 White Up Pointing Backhand Index
+👇1F447 White Down Pointing Backhand Index
+👈1F448 White Left Pointing Backhand Index
+👉1F449 White Right Pointing Backhand Index
+👊1F44A Fisted Hand Sign
+👋1F44B Waving Hand Sign
+👌1F44C Ok Hand Sign
+👍1F44D Thumbs Up Sign
+👎1F44E Thumbs Down Sign
+👏1F44F Clapping Hands Sign
+👐1F450 Open Hands Sign
+👑1F451 Crown
+👒1F452 Womans Hat
+👓1F453 Eyeglasses
+👔1F454 Necktie
+👕1F455 T-Shirt
+👖1F456 Jeans
+👗1F457 Dress
+👘1F458 Kimono
+👙1F459 Bikini
+👚1F45A Womans Clothes
+👛1F45B Purse
+👜1F45C Handbag
+👝1F45D Pouch
+👞1F45E Mans Shoe
+👟1F45F Athletic Shoe
+👠1F460 High-Heeled Shoe
+👡1F461 Womans Sandal
+👢1F462 Womans Boots
+👣1F463 Footprints
+👤1F464 Bust In Silhouette
+👥1F465 Busts In Silhouette
+👦1F466 Boy
+👧1F467 Girl
+👨1F468 Man
+👩1F469 Woman
+👪1F46A Family
+👫1F46B Man and Woman Holding Hands
+👬1F46C Two Men Holding Hands
+👭1F46D Two Women Holding Hands
+👮1F46E Police Officer
+👯1F46F Woman with Bunny Ears
+👰1F470 Bride with Veil
+👱1F471 Person with Blond Hair
+👲1F472 Man with Gua Pi Mao
+👳1F473 Man with Turban
+👴1F474 Older Man
+👵1F475 Older Woman
+👶1F476 Baby
+👷1F477 Construction Worker
+👸1F478 Princess
+👹1F479 Japanese Ogre
+👺1F47A Japanese Goblin
+👻1F47B Ghost
+👼1F47C Baby Angel
+👽1F47D Extraterrestrial Alien
+👾1F47E Alien Monster
+👿1F47F Imp
+💀1F480 Skull
+💁1F481 Information Desk Person
+💂1F482 Guardsman
+💃1F483 Dancer
+💄1F484 Lipstick
+💅1F485 Nail Polish
+💆1F486 Face Massage
+💇1F487 Haircut
+💈1F488 Barber Pole
+💉1F489 Syringe
+💊1F48A Pill
+💋1F48B Kiss Mark
+💌1F48C Love Letter
+💍1F48D Ring
+💎1F48E Gem Stone
+💏1F48F Kiss
+💐1F490 Bouquet
+💑1F491 Couple with Heart
+💒1F492 Wedding
+💓1F493 Beating Heart
+💔1F494 Broken Heart
+💕1F495 Two Hearts
+💖1F496 Sparkling Heart
+💗1F497 Growing Heart
+💘1F498 Heart with Arrow
+💙1F499 Blue Heart
+💚1F49A Green Heart
+💛1F49B Yellow Heart
+💜1F49C Purple Heart
+💝1F49D Heart with Ribbon
+💞1F49E Revolving Hearts
+💟1F49F Heart Decoration
+💠1F4A0 Diamond Shape with A Dot Inside
+💡1F4A1 Electric Light Bulb
+💢1F4A2 Anger Symbol
+💣1F4A3 Bomb
+💤1F4A4 Sleeping Symbol
+💥1F4A5 Collision Symbol
+💦1F4A6 Splashing Sweat Symbol
+💧1F4A7 Droplet
+💨1F4A8 Dash Symbol
+💩1F4A9 Pile of Poo
+💪1F4AA Flexed Biceps
+💫1F4AB Dizzy Symbol
+💬1F4AC Speech Balloon
+💭1F4AD Thought Balloon
+💮1F4AE White Flower
+💯1F4AF Hundred Points Symbol
+💰1F4B0 Money Bag
+💱1F4B1 Currency Exchange
+💲1F4B2 Heavy Dollar Sign
+💳1F4B3 Credit Card
+💴1F4B4 Banknote with Yen Sign
+💵1F4B5 Banknote with Dollar Sign
+💶1F4B6 Banknote with Euro Sign
+💷1F4B7 Banknote with Pound Sign
+💸1F4B8 Money with Wings
+💹1F4B9 Chart with Upwards Trend and Yen Sign
+💺1F4BA Seat
+💻1F4BB Personal Computer
+💼1F4BC Briefcase
+💽1F4BD Minidisc
+💾1F4BE Floppy Disk
+💿1F4BF Optical Disc
+📀1F4C0 Dvd
+📁1F4C1 File Folder
+📂1F4C2 Open File Folder
+📃1F4C3 Page with Curl
+📄1F4C4 Page Facing Up
+📅1F4C5 Calendar
+📆1F4C6 Tear-Off Calendar
+📇1F4C7 Card Index
+📈1F4C8 Chart with Upwards Trend
+📉1F4C9 Chart with Downwards Trend
+📊1F4CA Bar Chart
+📋1F4CB Clipboard
+📌1F4CC Pushpin
+📍1F4CD Round Pushpin
+📎1F4CE Paperclip
+📏1F4CF Straight Ruler
+📐1F4D0 Triangular Ruler
+📑1F4D1 Bookmark Tabs
+📒1F4D2 Ledger
+📓1F4D3 Notebook
+📔1F4D4 Notebook with Decorative Cover
+📕1F4D5 Closed Book
+📖1F4D6 Open Book
+📗1F4D7 Green Book
+📘1F4D8 Blue Book
+📙1F4D9 Orange Book
+📚1F4DA Books
+📛1F4DB Name Badge
+📜1F4DC Scroll
+📝1F4DD Memo
+📞1F4DE Telephone Receiver
+📟1F4DF Pager
+📠1F4E0 Fax Machine
+📡1F4E1 Satellite Antenna
+📢1F4E2 Public Address Loudspeaker
+📣1F4E3 Cheering Megaphone
+📤1F4E4 Outbox Tray
+📥1F4E5 Inbox Tray
+📦1F4E6 Package
+📧1F4E7 E-Mail Symbol
+📨1F4E8 Incoming Envelope
+📩1F4E9 Envelope with Downwards Arrow Above
+📪1F4EA Closed Mailbox with Lowered Flag
+📫1F4EB Closed Mailbox with Raised Flag
+📬1F4EC Open Mailbox with Raised Flag
+📭1F4ED Open Mailbox with Lowered Flag
+📮1F4EE Postbox
+📯1F4EF Postal Horn
+📰1F4F0 Newspaper
+📱1F4F1 Mobile Phone
+📲1F4F2 Mobile Phone with Rightwards Arrow at Left
+📳1F4F3 Vibration Mode
+📴1F4F4 Mobile Phone Off
+📵1F4F5 No Mobile Phones
+📶1F4F6 Antenna with Bars
+📷1F4F7 Camera
+📸1F4F8 Camera with Flash
+📹1F4F9 Video Camera
+📺1F4FA Television
+📻1F4FB Radio
+📼1F4FC Videocassette
+📽1F4FD Film Projector
+📾1F4FE Portable Stereo
+📿1F4FF Prayer Beads
+🔀1F500 Twisted Rightwards Arrows
+🔁1F501 Clockwise Rightwards and Leftwards Open Circle Arrows
+🔂1F502 Clockwise Rightwards and Leftwards Open Circle Arrows with Circled One Overlay
+🔃1F503 Clockwise Downwards and Upwards Open Circle Arrows
+🔄1F504 Anticlockwise Downwards and Upwards Open Circle Arrows
+🔅1F505 Low Brightness Symbol
+🔆1F506 High Brightness Symbol
+🔇1F507 Speaker with Cancellation Stroke
+🔈1F508 Speaker
+🔉1F509 Speaker with One Sound Wave
+🔊1F50A Speaker with Three Sound Waves
+🔋1F50B Battery
+🔌1F50C Electric Plug
+🔍1F50D Left-Pointing Magnifying Glass
+🔎1F50E Right-Pointing Magnifying Glass
+🔏1F50F Lock with Ink Pen
+🔐1F510 Closed Lock with Key
+🔑1F511 Key
+🔒1F512 Lock
+🔓1F513 Open Lock
+🔔1F514 Bell
+🔕1F515 Bell with Cancellation Stroke
+🔖1F516 Bookmark
+🔗1F517 Link Symbol
+🔘1F518 Radio Button
+🔙1F519 Back with Leftwards Arrow Above
+🔚1F51A End with Leftwards Arrow Above
+🔛1F51B On with Exclamation Mark with Left Right Arrow Above
+🔜1F51C Soon with Rightwards Arrow Above
+🔝1F51D Top with Upwards Arrow Above
+🔞1F51E No One Under Eighteen Symbol
+🔟1F51F Keycap Ten
+🔠1F520 Input Symbol For Latin Capital Letters
+🔡1F521 Input Symbol For Latin Small Letters
+🔢1F522 Input Symbol For Numbers
+🔣1F523 Input Symbol For Symbols
+🔤1F524 Input Symbol For Latin Letters
+🔥1F525 Fire
+🔦1F526 Electric Torch
+🔧1F527 Wrench
+🔨1F528 Hammer
+🔩1F529 Nut and Bolt
+🔪1F52A Hocho
+🔫1F52B Pistol
+🔬1F52C Microscope
+🔭1F52D Telescope
+🔮1F52E Crystal Ball
+🔯1F52F Six Pointed Star with Middle Dot
+🔰1F530 Japanese Symbol For Beginner
+🔱1F531 Trident Emblem
+🔲1F532 Black Square Button
+🔳1F533 White Square Button
+🔴1F534 Large Red Circle
+🔵1F535 Large Blue Circle
+🔶1F536 Large Orange Diamond
+🔷1F537 Large Blue Diamond
+🔸1F538 Small Orange Diamond
+🔹1F539 Small Blue Diamond
+🔺1F53A Up-Pointing Red Triangle
+🔻1F53B Down-Pointing Red Triangle
+🔼1F53C Up-Pointing Small Red Triangle
+🔽1F53D Down-Pointing Small Red Triangle
+🔾1F53E Lower Right Shadowed White Circle
+🔿1F53F Upper Right Shadowed White Circle
+🕀1F540 Circled Cross Pommee
+🕁1F541 Cross Pommee with Half-Circle Below
+🕂1F542 Cross Pommee
+🕃1F543 Notched Left Semicircle with Three Dots
+🕄1F544 Notched Right Semicircle with Three Dots
+🕅1F545 Symbol For Marks Chapter
+🕆1F546 White Latin Cross
+🕇1F547 Heavy Latin Cross
+🕈1F548 Celtic Cross
+🕉1F549 Om Symbol
+🕊1F54A Dove of Peace
+🕋1F54B Kaaba
+🕌1F54C Mosque
+🕍1F54D Synagogue
+🕎1F54E Menorah with Nine Branches
+🕏1F54F Bowl of Hygieia
+🕐1F550 Clock Face One Oclock
+🕑1F551 Clock Face Two Oclock
+🕒1F552 Clock Face Three Oclock
+🕓1F553 Clock Face Four Oclock
+🕔1F554 Clock Face Five Oclock
+🕕1F555 Clock Face Six Oclock
+🕖1F556 Clock Face Seven Oclock
+🕗1F557 Clock Face Eight Oclock
+🕘1F558 Clock Face Nine Oclock
+🕙1F559 Clock Face Ten Oclock
+🕚1F55A Clock Face Eleven Oclock
+🕛1F55B Clock Face Twelve Oclock
+🕜1F55C Clock Face One-Thirty
+🕝1F55D Clock Face Two-Thirty
+🕞1F55E Clock Face Three-Thirty
+🕟1F55F Clock Face Four-Thirty
+🕠1F560 Clock Face Five-Thirty
+🕡1F561 Clock Face Six-Thirty
+🕢1F562 Clock Face Seven-Thirty
+🕣1F563 Clock Face Eight-Thirty
+🕤1F564 Clock Face Nine-Thirty
+🕥1F565 Clock Face Ten-Thirty
+🕦1F566 Clock Face Eleven-Thirty
+🕧1F567 Clock Face Twelve-Thirty
+🕨1F568 Right Speaker
+🕩1F569 Right Speaker with One Sound Wave
+🕪1F56A Right Speaker with Three Sound Waves
+🕫1F56B Bullhorn
+🕬1F56C Bullhorn with Sound Waves
+🕭1F56D Ringing Bell
+🕮1F56E Book
+🕯1F56F Candle
+🕰1F570 Mantelpiece Clock
+🕱1F571 Black Skull and Crossbones
+🕲1F572 No Piracy
+🕳1F573 Hole
+🕴1F574 Man In Business Suit Levitating
+🕵1F575 Sleuth or Spy
+🕶1F576 Dark Sunglasses
+🕷1F577 Spider
+🕸1F578 Spider Web
+🕹1F579 Joystick
+🕺1F57A Man Dancing
+🕻1F57B Left Hand Telephone Receiver
+🕼1F57C Telephone Receiver with Page
+🕽1F57D Right Hand Telephone Receiver
+🕾1F57E White Touchtone Telephone
+🕿1F57F Black Touchtone Telephone
+🖀1F580 Telephone On Top of Modem
+🖁1F581 Clamshell Mobile Phone
+🖂1F582 Back of Envelope
+🖃1F583 Stamped Envelope
+🖄1F584 Envelope with Lightning
+🖅1F585 Flying Envelope
+🖆1F586 Pen Over Stamped Envelope
+🖇1F587 Linked Paperclips
+🖈1F588 Black Pushpin
+🖉1F589 Lower Left Pencil
+🖊1F58A Lower Left Ballpoint Pen
+🖋1F58B Lower Left Fountain Pen
+🖌1F58C Lower Left Paintbrush
+🖍1F58D Lower Left Crayon
+🖎1F58E Left Writing Hand
+🖏1F58F Turned Ok Hand Sign
+🖐1F590 Raised Hand with Fingers Splayed
+🖑1F591 Reversed Raised Hand with Fingers Splayed
+🖒1F592 Reversed Thumbs Up Sign
+🖓1F593 Reversed Thumbs Down Sign
+🖔1F594 Reversed Victory Hand
+🖕1F595 Reversed Hand with Middle Finger Extended
+🖖1F596 Raised Hand with Part Between Middle and Ring Fingers
+🖗1F597 White Down Pointing Left Hand Index
+🖘1F598 Sideways White Left Pointing Index
+🖙1F599 Sideways White Right Pointing Index
+🖚1F59A Sideways Black Left Pointing Index
+🖛1F59B Sideways Black Right Pointing Index
+🖜1F59C Black Left Pointing Backhand Index
+🖝1F59D Black Right Pointing Backhand Index
+🖞1F59E Sideways White Up Pointing Index
+🖟1F59F Sideways White Down Pointing Index
+🖠1F5A0 Sideways Black Up Pointing Index
+🖡1F5A1 Sideways Black Down Pointing Index
+🖢1F5A2 Black Up Pointing Backhand Index
+🖣1F5A3 Black Down Pointing Backhand Index
+🖤1F5A4 Black Heart
+🖥1F5A5 Desktop Computer
+🖦1F5A6 Keyboard and Mouse
+🖧1F5A7 Three Networked Computers
+🖨1F5A8 Printer
+🖩1F5A9 Pocket Calculator
+🖪1F5AA Black Hard Shell Floppy Disk
+🖫1F5AB White Hard Shell Floppy Disk
+🖬1F5AC Soft Shell Floppy Disk
+🖭1F5AD Tape Cartridge
+🖮1F5AE Wired Keyboard
+🖯1F5AF One Button Mouse
+🖰1F5B0 Two Button Mouse
+🖱1F5B1 Three Button Mouse
+🖲1F5B2 Trackball
+🖳1F5B3 Old Personal Computer
+🖴1F5B4 Hard Disk
+🖵1F5B5 Screen
+🖶1F5B6 Printer Icon
+🖷1F5B7 Fax Icon
+🖸1F5B8 Optical Disc Icon
+🖹1F5B9 Document with Text
+🖺1F5BA Document with Text and Picture
+🖻1F5BB Document with Picture
+🖼1F5BC Frame with Picture
+🖽1F5BD Frame with Tiles
+🖾1F5BE Frame with An X
+🖿1F5BF Black Folder
+🗀1F5C0 Folder
+🗁1F5C1 Open Folder
+🗂1F5C2 Card Index Dividers
+🗃1F5C3 Card File Box
+🗄1F5C4 File Cabinet
+🗅1F5C5 Empty Note
+🗆1F5C6 Empty Note Page
+🗇1F5C7 Empty Note Pad
+🗈1F5C8 Note
+🗉1F5C9 Note Page
+🗊1F5CA Note Pad
+🗋1F5CB Empty Document
+🗌1F5CC Empty Page
+🗍1F5CD Empty Pages
+🗎1F5CE Document
+🗏1F5CF Page
+🗐1F5D0 Pages
+🗑1F5D1 Wastebasket
+🗒1F5D2 Spiral Note Pad
+🗓1F5D3 Spiral Calendar Pad
+🗔1F5D4 Desktop Window
+🗕1F5D5 Minimize
+🗖1F5D6 Maximize
+🗗1F5D7 Overlap
+🗘1F5D8 Clockwise Right and Left Semicircle Arrows
+🗙1F5D9 Cancellation X
+🗚1F5DA Increase Font Size Symbol
+🗛1F5DB Decrease Font Size Symbol
+🗜1F5DC Compression
+🗝1F5DD Old Key
+🗞1F5DE Rolled-Up Newspaper
+🗟1F5DF Page with Circled Text
+🗠1F5E0 Stock Chart
+🗡1F5E1 Dagger Knife
+🗢1F5E2 Lips
+🗣1F5E3 Speaking Head In Silhouette
+🗤1F5E4 Three Rays Above
+🗥1F5E5 Three Rays Below
+🗦1F5E6 Three Rays Left
+🗧1F5E7 Three Rays Right
+🗨1F5E8 Left Speech Bubble
+🗩1F5E9 Right Speech Bubble
+🗪1F5EA Two Speech Bubbles
+🗫1F5EB Three Speech Bubbles
+🗬1F5EC Left Thought Bubble
+🗭1F5ED Right Thought Bubble
+🗮1F5EE Left Anger Bubble
+🗯1F5EF Right Anger Bubble
+🗰1F5F0 Mood Bubble
+🗱1F5F1 Lightning Mood Bubble
+🗲1F5F2 Lightning Mood
+🗳1F5F3 Ballot Box with Ballot
+🗴1F5F4 Ballot Script X
+🗵1F5F5 Ballot Box with Script X
+🗶1F5F6 Ballot Bold Script X
+🗷1F5F7 Ballot Box with Bold Script X
+🗸1F5F8 Light Check Mark
+🗹1F5F9 Ballot Box with Bold Check
+🗺1F5FA World Map
+🗻1F5FB Mount Fuji
+🗼1F5FC Tokyo Tower
+🗽1F5FD Statue of Liberty
+🗾1F5FE Silhouette of Japan
+🗿1F5FF Moyia
+🤀1F900 Circled Cross Formee with Four Dots
+🤁1F901 Circled Cross Formee with Two Dots
+🤂1F902 Circled Cross Formee
+🤃1F903 Left Half Circle with Four Dots
+🤄1F904 Left Half Circle with Three Dots
+🤅1F905 Left Half Circle with Two Dots
+🤆1F906 Left Half Circle with Dot
+🤇1F907 Left Half Circle
+🤈1F908 Downward Facing Hook
+🤉1F909 Downward Facing Notched Hook
+🤊1F90A Downward Facing Hook with Dot
+🤋1F90B Downward Facing Notched Hook with Dot
+🤌1F90C Pinched Fingers
+🤍1F90D White Heart
+🤎1F90E Brown Heart
+🤏1F90F Pinching Hand
+🤐1F910 Zipper-Mouth Face
+🤑1F911 Money-Mouth Face
+🤒1F912 Face with Thermometer
+🤓1F913 Nerd Face
+🤔1F914 Thinking Face
+🤕1F915 Face with Head-Bandage
+🤖1F916 Robot Face
+🤗1F917 Hugging Face
+🤘1F918 Sign of the Horns
+🤙1F919 Call Me Hand
+🤚1F91A Raised Back of Hand
+🤛1F91B Left-Facing Fist
+🤜1F91C Right-Facing Fist
+🤝1F91D Handshake
+🤞1F91E Hand with Index and Middle Fingers Crossed
+🤟1F91F I Love You Hand Sign
+🤠1F920 Face with Cowboy Hat
+🤡1F921 Clown Face
+🤢1F922 Nauseated Face
+🤣1F923 Rolling On the Floor Laughing
+🤤1F924 Drooling Face
+🤥1F925 Lying Face
+🤦1F926 Face Palm
+🤧1F927 Sneezing Face
+🤨1F928 Face with One Eyebrow Raised
+🤩1F929 Grinning Face with Star Eyes
+🤪1F92A Grinning Face with One Large and One Small Eye
+🤫1F92B Face with Finger Covering Closed Lips
+🤬1F92C Serious Face with Symbols Covering Mouth
+🤭1F92D Smiling Face with Smiling Eyes and Hand Covering Mouth
+🤮1F92E Face with Open Mouth Vomiting
+🤯1F92F Shocked Face with Exploding Head
+🤰1F930 Pregnant Woman
+🤱1F931 Breast-Feeding
+🤲1F932 Palms Up Together
+🤳1F933 Selfie
+🤴1F934 Prince
+🤵1F935 Man In Tuxedo
+🤶1F936 Mother Christmas
+🤷1F937 Shrug
+🤸1F938 Person Doing Cartwheel
+🤹1F939 Juggling
+🤺1F93A Fencer
+🤻1F93B Modern Pentathlon
+🤼1F93C Wrestlers
+🤽1F93D Water Polo
+🤾1F93E Handball
+🤿1F93F Diving Mask
+🥀1F940 Wilted Flower
+🥁1F941 Drum with Drumsticks
+🥂1F942 Clinking Glasses
+🥃1F943 Tumbler Glass
+🥄1F944 Spoon
+🥅1F945 Goal Net
+🥆1F946 Rifle
+🥇1F947 First Place Medal
+🥈1F948 Second Place Medal
+🥉1F949 Third Place Medal
+🥊1F94A Boxing Glove
+🥋1F94B Martial Arts Uniform
+🥌1F94C Curling Stone
+🥍1F94D Lacrosse Stick and Ball
+🥎1F94E Softball
+🥏1F94F Flying Disc
+🥐1F950 Croissant
+🥑1F951 Avocado
+🥒1F952 Cucumber
+🥓1F953 Bacon
+🥔1F954 Potato
+🥕1F955 Carrot
+🥖1F956 Baguette Bread
+🥗1F957 Green Salad
+🥘1F958 Shallow Pan of Food
+🥙1F959 Stuffed Flatbread
+🥚1F95A Egg
+🥛1F95B Glass of Milk
+🥜1F95C Peanuts
+🥝1F95D Kiwifruit
+🥞1F95E Pancakes
+🥟1F95F Dumpling
+🥠1F960 Fortune Cookie
+🥡1F961 Takeout Box
+🥢1F962 Chopsticks
+🥣1F963 Bowl with Spoon
+🥤1F964 Cup with Straw
+🥥1F965 Coconut
+🥦1F966 Broccoli
+🥧1F967 Pie
+🥨1F968 Pretzel
+🥩1F969 Cut of Meat
+🥪1F96A Sandwich
+🥫1F96B Canned Food
+🥬1F96C Leafy Green
+🥭1F96D Mango
+🥮1F96E Moon Cake
+🥯1F96F Bagel
+🥰1F970 Smiling Face with Smiling Eyes and Three Hearts
+🥱1F971 Yawning Face
+🥲1F972 Smiling Face with Tear
+🥳1F973 Face with Party Horn and Party Hat
+🥴1F974 Face with Uneven Eyes and Wavy Mouth
+🥵1F975 Overheated Face
+🥶1F976 Freezing Face
+🥷1F977 Ninja
+🥸1F978 Disguised Face
+🥺1F97A Face with Pleading Eyes
+🥻1F97B Sari
+🥼1F97C Lab Coat
+🥽1F97D Goggles
+🥾1F97E Hiking Boot
+🥿1F97F Flat Shoe
+🦀1F980 Crab
+🦁1F981 Lion Face
+🦂1F982 Scorpion
+🦃1F983 Turkey
+🦄1F984 Unicorn Face
+🦅1F985 Eagle
+🦆1F986 Duck
+🦇1F987 Bat
+🦈1F988 Shark
+🦉1F989 Owl
+🦊1F98A Fox Face
+🦋1F98B Butterfly
+🦌1F98C Deer
+🦍1F98D Gorilla
+🦎1F98E Lizard
+🦏1F98F Rhinoceros
+🦐1F990 Shrimp
+🦑1F991 Squid
+🦒1F992 Giraffe Face
+🦓1F993 Zebra Face
+🦔1F994 Hedgehog
+🦕1F995 Sauropod
+🦖1F996 T-Rex
+🦗1F997 Cricket
+🦘1F998 Kangaroo
+🦙1F999 Llama
+🦚1F99A Peacock
+🦛1F99B Hippopotamus
+🦜1F99C Parrot
+🦝1F99D Raccoon
+🦞1F99E Lobster
+🦟1F99F Mosquito
+🦠1F9A0 Microbe
+🦡1F9A1 Badger
+🦢1F9A2 Swan
+🦣1F9A3 Mammoth
+🦤1F9A4 Dodo
+🦥1F9A5 Sloth
+🦦1F9A6 Otter
+🦧1F9A7 Orangutan
+🦨1F9A8 Skunk
+🦩1F9A9 Flamingo
+🦪1F9AA Oyster
+🦫1F9AB Beaver
+🦬1F9AC Bison
+🦭1F9AD Seal
+🦮1F9AE Guide Dog
+🦯1F9AF Probing Cane
+🦰1F9B0 Emoji Component Red Hair
+🦱1F9B1 Emoji Component Curly Hair
+🦲1F9B2 Emoji Component Bald
+🦳1F9B3 Emoji Component White Hair
+🦴1F9B4 Bone
+🦵1F9B5 Leg
+🦶1F9B6 Foot
+🦷1F9B7 Tooth
+🦸1F9B8 Superhero
+🦹1F9B9 Supervillain
+🦺1F9BA Safety Vest
+🦻1F9BB Ear with Hearing Aid
+🦼1F9BC Motorized Wheelchair
+🦽1F9BD Manual Wheelchair
+🦾1F9BE Mechanical Arm
+🦿1F9BF Mechanical Leg
+🧀1F9C0 Cheese Wedge
+🧁1F9C1 Cupcake
+🧂1F9C2 Salt Shaker
+🧃1F9C3 Beverage Box
+🧄1F9C4 Garlic
+🧅1F9C5 Onion
+🧆1F9C6 Falafel
+🧇1F9C7 Waffle
+🧈1F9C8 Butter
+🧉1F9C9 Mate Drink
+🧊1F9CA Ice Cube
+🧋1F9CB Bubble Tea
+🧍1F9CD Standing Person
+🧎1F9CE Kneeling Person
+🧏1F9CF Deaf Person
+🧐1F9D0 Face with Monocle
+🧑1F9D1 Adult
+🧒1F9D2 Child
+🧓1F9D3 Older Adult
+🧔1F9D4 Bearded Person
+🧕1F9D5 Person with Headscarf
+🧖1F9D6 Person In Steamy Room
+🧗1F9D7 Person Climbing
+🧘1F9D8 Person In Lotus Position
+🧙1F9D9 Mage
+🧚1F9DA Fairy
+🧛1F9DB Vampire
+🧜1F9DC Merperson
+🧝1F9DD Elf
+🧞1F9DE Genie
+🧟1F9DF Zombie
+🧠1F9E0 Brain
+🧡1F9E1 Orange Heart
+🧢1F9E2 Billed Cap
+🧣1F9E3 Scarf
+🧤1F9E4 Gloves
+🧥1F9E5 Coat
+🧦1F9E6 Socks
+🧧1F9E7 Red Gift Envelope
+🧨1F9E8 Firecracker
+🧩1F9E9 Jigsaw Puzzle Piece
+🧪1F9EA Test Tube
+🧫1F9EB Petri Dish
+🧬1F9EC Dna Double Helix
+🧭1F9ED Compass
+🧮1F9EE Abacus
+🧯1F9EF Fire Extinguisher
+🧰1F9F0 Toolbox
+🧱1F9F1 Brick
+🧲1F9F2 Magnet
+🧳1F9F3 Luggage
+🧴1F9F4 Lotion Bottle
+🧵1F9F5 Spool of Thread
+🧶1F9F6 Ball of Yarn
+🧷1F9F7 Safety Pin
+🧸1F9F8 Teddy Bear
+🧹1F9F9 Broom
+🧺1F9FA Basket
+🧻1F9FB Roll of Paper
+🧼1F9FC Bar of Soap
+🧽1F9FD Sponge
+🧾1F9FE Receipt
+🧿1F9FF Nazar Amulet

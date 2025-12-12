@@ -68,6 +68,7 @@ Array.prototype.shuffle = function() {
   return this; // Return the shuffled array (modified in place)
 };
 
+// ensure adjacent square don't contain the same animal
 function hasAdjacentEqualElements(arr) {
   for (let i = 0; i < arr.length - 1; i++) {
     if (arr[i] === arr[i + 1]) {
@@ -80,11 +81,9 @@ function hasAdjacentEqualElements(arr) {
 // onChange()
 let h, w, m, c;
 
-let card1, card2, guess, errors, animals, timeoutID = null, loopInterval = null, emoji = [].concat(
-  Array(36).fill().map((_, i) => String.fromCodePoint(0x1f330 + i)),  // plants & fruits
-  Array(44).fill().map((_, i) => String.fromCodePoint(0x1f400 + i)),  // animals
-  Array(16).fill().map((_, i) => String.fromCodePoint(0x1f42d + i))   // animals faces
-);                                                 // 0x1f9.. emoji's not on Android
+let card1, card2, guess, errors, animals, timeoutID = null, loopInterval = null, emoji = [...`🌰🌱🌲🌳🌴🌵🌶🌷🌸🌹🌺🌻🌼🌽🌾🌿🍀🍁🍂🍃🍄🍅🍆🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐🍑🍒🍓🐀🐁🐂🐃🐄🐅🐆🐇🐈🐉🐊🐋🐌🐍🐎🐏🐐🐑🐒🐓🐔🐕🐖🐗🐘🐙🐚🐛🐜🐝🐞🐟🐠🐡🐢🐣🐤🐥🐦🐧🐨🐩🐪🐬🐭🐮🐯🐰🐱🐲🐳🐴🐵🐶🐷🐸🐹🐺🐻🐼🥑🥒🥕🥝🥥🥦🥬🥭🦀🦁🦂🦃🦄🦅🦆🦇🦈🦉🦊🦋🦌🦍🦎🦏🦐🦑🦒🦓🦔🦕🦖🦗🦘🦙🦚🦛🦜🦝🦞🦟🦠🦡🦢🦣🦤🦥🦦🦧🦨🦩🦪🦫🦬🦭🧄`];
+// https://www.compart.com/en/unicode/block/U+1F300 U+1F900
+console.log(emoji.join(''),emoji.length);
 
 function startLoop() {
   $('.flex:last > div').html('💖');
@@ -99,7 +98,6 @@ function init() {
   card1 = card2 = null, errors = 0, guess = new Array(16).fill(0);
   $('.flex').html('');
 
-  emoji = emoji.shuffle();
   animals = emoji.slice(0,8).concat(emoji.slice(0,8));
   do {
     animals = animals.shuffle();
@@ -109,8 +107,7 @@ function init() {
     $('.flex').first().append($(`<div id="${i}">&nbsp;</div>`));
   });
   // https://stackoverflow.com/questions/4974668/what-is-the-unicode-variation-selector
-  $('.flex').last().append($(`<div>♻️</div>`)); // green recycle &#x267b;&#xfe0f;
-  console.log(emoji.join(","));
+  $('.flex').last().append($(`<div>♻️</div>`)); // green recycle &#x267b;&#xfe0f; 
   onChange();
 
   $('.flex > div').click(function(e) {
@@ -256,6 +253,7 @@ function triggerRandomFirework() {
     // Random positions within the viewport
     const x = Math.random() * (m - 2*c); // window.innerWidth;
     const y = Math.random() * (window.innerHeight - 2*c);
-    createHeart(x, y); // Pass the color
+    createHeart(x, y);
 }
 </script></body></html>
+
