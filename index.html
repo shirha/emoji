@@ -8,6 +8,7 @@
 <title>Emoji</title>
 <style>
 body {
+  font-family: "Segoe UI Emoji"; /* force emoji presentation for 'Red Pepper' */
   background-image: url("Farm-Fresh-Strawberries.jpg");
   background-color: wheat;
   margin: 10px;
@@ -59,10 +60,6 @@ body {
 <script src="https://unpkg.com/jquery@2.2.4/dist/jquery.min.js"></script>
 <script>
 'use strict';
-let str = `🌵1F335 Cactus
-🌶1F336 Hot Pepper
-🌷1F337 Tulip
-`;
 Array.prototype.shuffle = function() {
   let currentIndex = this.length;
   while (currentIndex !== 0) {
