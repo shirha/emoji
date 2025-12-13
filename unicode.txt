@@ -1020,3 +1020,61 @@
 🧽1F9FD Sponge
 🧾1F9FE Receipt
 🧿1F9FF Nazar Amulet
+
+🩰1FA70 Ballet Shoes
+🩱1FA71 One-Piece Swimsuit
+🩲1FA72 Briefs
+🩳1FA73 Shorts
+🩴1FA74 Thong Sandal
+🩸1FA78 Drop of Blood
+🩹1FA79 Adhesive Bandage
+🩺1FA7A Stethoscope
+🪀1FA80 Yo-Yo
+🪁1FA81 Kite
+🪂1FA82 Parachute
+🪃1FA83 Boomerang
+🪄1FA84 Magic Wand
+🪅1FA85 Pinata
+🪆1FA86 Nesting Dolls
+🪐1FA90 Ringed Planet
+🪑1FA91 Chair
+🪒1FA92 Razor
+🪓1FA93 Axe
+🪔1FA94 Diya Lamp
+🪕1FA95 Banjo
+🪖1FA96 Military Helmet
+🪗1FA97 Accordion
+🪘1FA98 Long Drum
+🪙1FA99 Coin
+🪚1FA9A Carpentry Saw
+🪛1FA9B Screwdriver
+🪜1FA9C Ladder
+🪝1FA9D Hook
+🪞1FA9E Mirror
+🪟1FA9F Window
+🪠1FAA0 Plunger
+🪡1FAA1 Sewing Needle
+🪢1FAA2 Knot
+🪣1FAA3 Bucket
+🪤1FAA4 Mouse Trap
+🪥1FAA5 Toothbrush
+🪦1FAA6 Headstone
+🪧1FAA7 Placard
+🪨1FAA8 Rock
+🪰1FAB0 Fly
+🪱1FAB1 Worm
+🪲1FAB2 Beetle
+🪳1FAB3 Cockroach
+🪴1FAB4 Potted Plant
+🪵1FAB5 Wood
+🪶1FAB6 Feather
+🫀1FAC0 Anatomical Heart
+🫁1FAC1 Lungs
+🫂1FAC2 People Hugging
+🫐1FAD0 Blueberries
+🫑1FAD1 Bell Pepper
+🫒1FAD2 Olive
+🫓1FAD3 Flatbread
+🫔1FAD4 Tamale
+🫕1FAD5 Fondue
+🫖1FAD6 Teapot
