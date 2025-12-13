@@ -8,7 +8,7 @@
 <title>Emoji</title>
 <style>
 body {
-  /* font-family: "Segoe UI Emoji"; force emoji presentation for 'Red Pepper' */
+  font-family: "Segoe UI Emoji"; /* force emoji presentation for 'Red Pepper' */
   background-image: url("Farm-Fresh-Strawberries.jpg");
   background-color: wheat;
   margin: 10px;
@@ -109,7 +109,7 @@ function init() {
     $('.flex').first().append($(`<div id="${i}">&nbsp;</div>`));
   });
   // https://stackoverflow.com/questions/4974668/what-is-the-unicode-variation-selector
-  $('.flex').last().append($(`<div>♻️</div>`)); // green recycle &#x267b;&#xfe0f; 
+  $('.flex').last().append($(`<div>♻️</div>`));
   onChange();
 
   $('.flex > div').click(function(e) {
@@ -223,7 +223,7 @@ function createHeart(x, y) {
         if (i == numberOfHearts / 2) color = getRandomColor(); 
         const heart = document.createElement("div");
         heart.classList.add("heart-firework");
-        heart.textContent = "♥";
+        heart.textContent = "♥\uFE0E"; // text presentation so color works
         document.body.appendChild(heart);
 
         // Position the heart
