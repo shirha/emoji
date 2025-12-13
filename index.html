@@ -8,7 +8,7 @@
 <title>Emoji</title>
 <style>
 body {
-  font-family: "Segoe UI Emoji"; /* force emoji presentation for 'Red Pepper' */
+  /* font-family: "Segoe UI Emoji"; force emoji presentation for 'Red Pepper' */
   background-image: url("Farm-Fresh-Strawberries.jpg");
   background-color: wheat;
   margin: 10px;
@@ -232,6 +232,7 @@ function createHeart(x, y) {
 
         heart.style.setProperty('--heart-size', `${c}px`); 
         heart.style.setProperty('--heart-color', color); 
+        // console.log(color);
 
         // Calculate a random direction and distance
         const angle = Math.random() * Math.PI * 2;
