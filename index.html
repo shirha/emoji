@@ -99,6 +99,7 @@ function init() {
   card1 = card2 = null, errors = 0, guess = new Array(16).fill(0);
   $('.flex').html('');
 
+  emoji = emoji.shuffle();
   animals = emoji.slice(0,8).concat(emoji.slice(0,8));
   do {
     animals = animals.shuffle();
