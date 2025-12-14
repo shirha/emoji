@@ -113,7 +113,7 @@ function init() {
   onChange();
 
   $('.flex > div').click(function(e) {
-    e.target.blur();
+    $('.flex').blur(); // remove accidental selections
     if (/^\d+$/.test(e.target.textContent))
       startLoop();
 
