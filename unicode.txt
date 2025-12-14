@@ -1,3 +1,8 @@
+git log --oneline index.html          # find the commit hash you want
+git show <commit-hash>:index.html     # view it in terminal
+# or
+git show <commit-hash>:index.html > index-old.html  # save a copy
+
 🌀1F300 Cyclone
 🌁1F301 Foggy
 🌂1F302 Closed Umbrella
