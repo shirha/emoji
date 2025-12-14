@@ -113,6 +113,7 @@ function init() {
   onChange();
 
   $('.flex > div').click(function(e) {
+    e.target.blur();
     if (/^\d+$/.test(e.target.textContent))
       startLoop();
 
